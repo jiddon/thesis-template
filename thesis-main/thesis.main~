@@ -1,0 +1,34 @@
+\input{global_settings.tex}
+
+\author{James Philip Iddon}
+\date{\today}
+\title{Construction and verification of the ALICE ITS}
+
+\begin{document}
+\onehalfspacing
+\frontmatter
+\maketitle
+\mainmatter
+\tableofcontents
+
+\chapter{Introduction}
+\input{intro/intro.tex}
+
+\chapter{ALICE upgrade}
+\input{alice-upgrade/alice_upgrade.tex}
+
+\chapter{Module and stave construction and testing}
+\input{staves/staves.tex}
+
+\chapter{ITS construction and testing}
+\input{cern-assembly/cern_assembly.tex}
+
+\chapter{Analysis framework for cosmic data in O2}
+\input{cosmics/cosmics.tex}
+% OR
+% \chapter{Measurement of cosmic muons with the outer barrel}
+
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\printbibliography
+\end{document}

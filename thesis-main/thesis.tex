@@ -1,0 +1,29 @@
+\input{global_settings.tex}
+
+\author{Author}
+\date{\today}
+\title{Thesis Title}
+
+\begin{document}
+\onehalfspacing
+\frontmatter
+\maketitle
+\mainmatter
+\tableofcontents
+
+\chapter{Introduction}
+\subfile{../intro/intro}
+
+\chapter{Chapter 2 title}
+\subfile{../chapter-2/chapter-2}
+
+\chapter{Chapter 3 title}
+\subfile{../chapter-3/chapter-3}
+
+\chapter{Chapter 4 title}
+\subfile{../chapter-4/chapter-4}
+
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\printbibliography
+\end{document}
