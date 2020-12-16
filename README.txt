@@ -1,4 +1,4 @@
-- compile with $pdflatex thesis-main.tex
+- compile with $pdflatex thesis.tex
 - all main files are in thesis-main, where thesis.tex is the root file
 - \import and \subimport are used instead of \include or \input. \import{path}{file}, where path can be absolute or from the top directory and file can be with or without the '.tex'. \subimport{subpath}{file}, where subpath is ammended to path, i.e. /path/subpath/ and file can be with or without the '.tex'.
 - the main tex file is thesis.tex
